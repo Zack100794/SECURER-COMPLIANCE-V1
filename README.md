@@ -1,10 +1,10 @@
 # SECURER-COMPLIANCE V1
 
-A self-contained Next.js questionnaire interface for cybersecurity regulatory mapping, requirement extraction, and generic test case generation.
+A self-contained Next.js SECURER-COMPLIANCE UI for cybersecurity regulatory mapping, requirement extraction, and language independent test case generation.
 
 ## Project Overview
 
-This repository delivers a single, browser-based workflow:
+This repository delivers SECURER-COMPLIANCE workflow:
 
 - A **Next.js UI** for collecting cybersecurity requirements, performing compliance analysis, and generating language-agnostic test cases.
 
@@ -27,7 +27,7 @@ This repository delivers a single, browser-based workflow:
 
 ## Python Workflow File
 
-A separate Python file, `workflow_prompts.py`, is included as a prompt workflow reference. It documents the five prompt stages used to convert questionnaire answers into compliance analysis and generic test outputs.
+A separate Python file, `workflow_prompts.py`, is included as a prompt workflow reference. It documents the five prompt stages used to convert questionnaire answers into compliance analysis and test outputs.
 
 ## Running the Next.js UI
 
@@ -43,16 +43,16 @@ Open `http://localhost:3000` to use the questionnaire interface.
 
 ## Using the Next.js Compliance Generator
 
-The browser UI generates compliance mappings, requirements, and generic test cases directly from your questionnaire answers. No Python engine is required.
+The SECURER-COMPLIANCE generates compliance mappings, requirements, and test cases directly from your questionnaire answers.
 
 ## How to Use It
 
 - Open the Next.js UI and complete the questionnaire to capture system and security requirements.
-- Review the regulation comparison and extracted requirements in the UI.
-- Download the JSON results bundle containing generic compliance outputs that can be adapted to any IoT or system implementation.
+- Review the regulation and extracted requirements comprehensive analysis in the UI.
+- Download the JSON results bundle containing generic compliance outputs that can enhance cybersecurity and regulatory compliance for various IoT sytems and domains.
 
 ## Notes
 
 - This project does not assume features beyond the questionnaire answers.
-- If a regulation is too vague for direct test generation, the UI highlights it for expert review.
+- If a regulation is too vague for direct test generation, the system highlights it for expert panel review.
 - The generated test cases are templates, ready to be adapted to real system checks in any implementation language.
